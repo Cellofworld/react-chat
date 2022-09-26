@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-chat/static/css/main.dd316375.css",
+    "main.js": "/react-chat/static/js/main.903974e1.js",
+    "static/media/backImg.svg": "/react-chat/static/media/backImg.45520987ad6d789e30664a8c3d0ae0ef.svg",
+    "static/media/ubuntu.woff": "/react-chat/static/media/ubuntu.820fd0c4fac40b3b60a7.woff",
+    "static/media/ubuntumedium.woff": "/react-chat/static/media/ubuntumedium.1326c74d3374d1d150c3.woff",
+    "static/media/ubuntubold.woff": "/react-chat/static/media/ubuntubold.1edbd0d8069a51ac416d.woff",
+    "static/media/ubuntulight.woff": "/react-chat/static/media/ubuntulight.b82e844a616f96c0a85f.woff",
+    "static/media/ubuntu.woff2": "/react-chat/static/media/ubuntu.93436177d079783423bb.woff2",
+    "static/media/ubuntumedium.woff2": "/react-chat/static/media/ubuntumedium.219dec2386896950352f.woff2",
+    "static/media/ubuntubold.woff2": "/react-chat/static/media/ubuntubold.7e8d06dad635bc53089c.woff2",
+    "static/media/ubuntulight.woff2": "/react-chat/static/media/ubuntulight.94eec61294b64f9733ea.woff2",
+    "index.html": "/react-chat/index.html",
+    "static/media/signout.svg": "/react-chat/static/media/signout.185b0252a6c6abd60780620ecc09cf89.svg",
+    "static/media/message.svg": "/react-chat/static/media/message.91857d4bcba288ac043f97bb4f3044d6.svg",
+    "static/media/chat.svg": "/react-chat/static/media/chat.7b7043060a41d876e77747a929692e6d.svg",
+    "static/media/user.svg": "/react-chat/static/media/user.8ce1f545257b7455f40bd875fd45533c.svg",
+    "static/media/bars.svg": "/react-chat/static/media/bars.bc8f8fee84393a3588d6725d595d0ee9.svg",
+    "main.dd316375.css.map": "/react-chat/static/css/main.dd316375.css.map",
+    "main.903974e1.js.map": "/react-chat/static/js/main.903974e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd316375.css",
+    "static/js/main.903974e1.js"
+  ]
+}
