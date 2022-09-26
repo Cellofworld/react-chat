@@ -36,3 +36,8 @@ width: 500px;
     font-size: 20px;
     border: none;
 }
+
+.buttonLogin {
+    cursor: pointer;
+    background-color: #ef6342;
+}
