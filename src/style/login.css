@@ -1,0 +1,38 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(129.98deg, #706AEC 0%, #44359F 98.97%);
+}
+.welcomeLoginImg {
+height: 500px;
+width: 500px;
+}
+
+.welcomeDiscription {
+    color:#fff;
+    margin-right: 75px;
+    width: 570px;
+}
+
+.welcomTextTitle {
+    font-size: 45px;
+}
+
+.welcomeTextSubtitle {
+    font-size: 20px;
+}
+
+.buttonLogin {
+    align-items: center;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: #ea4119;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
