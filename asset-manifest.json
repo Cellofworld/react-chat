@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-chat/static/css/main.dd316375.css",
-    "main.js": "/react-chat/static/js/main.0aec3e5a.js",
+    "main.js": "/react-chat/static/js/main.1b61e6ba.js",
     "static/media/backImg.svg": "/react-chat/static/media/backImg.45520987ad6d789e30664a8c3d0ae0ef.svg",
     "static/media/ubuntu.woff": "/react-chat/static/media/ubuntu.820fd0c4fac40b3b60a7.woff",
     "static/media/ubuntumedium.woff": "/react-chat/static/media/ubuntumedium.1326c74d3374d1d150c3.woff",
@@ -18,10 +18,10 @@
     "static/media/user.svg": "/react-chat/static/media/user.8ce1f545257b7455f40bd875fd45533c.svg",
     "static/media/bars.svg": "/react-chat/static/media/bars.bc8f8fee84393a3588d6725d595d0ee9.svg",
     "main.dd316375.css.map": "/react-chat/static/css/main.dd316375.css.map",
-    "main.0aec3e5a.js.map": "/react-chat/static/js/main.0aec3e5a.js.map"
+    "main.1b61e6ba.js.map": "/react-chat/static/js/main.1b61e6ba.js.map"
   },
   "entrypoints": [
     "static/css/main.dd316375.css",
-    "static/js/main.0aec3e5a.js"
+    "static/js/main.1b61e6ba.js"
   ]
 }
