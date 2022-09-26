@@ -11,7 +11,6 @@ import Layout from './components/Layout';
 function App() {
 
   const user = true
-  console.log("asd")
   return (
     <>
    <Routes>
