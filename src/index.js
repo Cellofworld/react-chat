@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import App from './App';
 
 
@@ -55,9 +55,9 @@ root.render(
       auth,
       firestore
       }}>
-     <BrowserRouter>
+     <HashRouter>
       <App />
-      </BrowserRouter>
+      </HashRouter>
     </Context.Provider>
   </React.StrictMode>
 );
