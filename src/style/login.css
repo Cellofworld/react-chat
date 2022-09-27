@@ -7,22 +7,31 @@
     background: linear-gradient(129.98deg, #706AEC 0%, #44359F 98.97%);
 }
 .welcomeLoginImg {
-height: 500px;
-width: 500px;
+height: 220px;
+width: 420px;
+margin-top: 40px;
+order: 4;
 }
 
 .welcomeDiscription {
     color:#fff;
-    margin-right: 75px;
     width: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }
 
 .welcomTextTitle {
     font-size: 45px;
+    text-align: center;
+    order: 1;
 }
 
 .welcomeTextSubtitle {
     font-size: 20px;
+    text-align: center;
+    order: 2;
 }
 
 .buttonLogin {
@@ -35,9 +44,36 @@ width: 500px;
     color: #fff;
     font-size: 20px;
     border: none;
+    order: 3;
 }
 
 .buttonLogin:hover {
     cursor: pointer;
     background-color: #ef6342;
 }
+
+@media screen and (max-width: 600px) {
+    .welcomeDiscription {
+        margin: 0px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .welcomTextTitle {
+        font-size: 25px;
+        text-align: center;
+    }
+    .welcomeTextSubtitle {
+        display: none;
+    }
+    .welcomeLoginImg {
+        width: 190px;
+        height: 160px;
+    }
+    .buttonLogin {
+        width: 250px;
+        margin-top: 10px;
+    }
+   }

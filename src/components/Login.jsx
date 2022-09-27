@@ -17,9 +17,9 @@ const login = async () => {
         <div className="welcomeDiscription">
         <p className="welcomTextTitle">Добро пожаловать в GrosChat</p>
         <p className="welcomeTextSubtitle">В нашем чате ты можешь найти друзей, которые разделяют твои интересы.</p>
+        <img className="welcomeLoginImg" src={welcomeImg} alt="welcomeImg" />
         <button className="buttonLogin" onClick={login} >Войти</button>
         </div>
-        <img className="welcomeLoginImg" src={welcomeImg} />
 </div>
     )
 }

@@ -33,13 +33,7 @@ const Chat = () => {
    return (
    <div className="chatRoom">
     <div 
-    className="chatMessageRoom"
-    style={{
-        width:'90%',
-        height: '68vh',
-        overflowY: 'auto'
-    }}
-    >
+    className="chatMessageRoom">
         {messages.map(message => 
             <div 
             className="chatMessage"
@@ -67,9 +61,9 @@ const Chat = () => {
                     padding:'10px',
                     width: '70%',
                     overflowWrap: 'anywhere',
-                    margin:'0px 15px',
+                    margin:'10px 7px',
                     border:'1px solid rgba(112, 124, 151, 0.25)',
-                    borderRadius: user.uid === message.uid ? '10px 10px 0px 10px' : '0px 10px 10px 10px'
+                    borderRadius: user.uid === message.uid ? '10px 10px 0px 10px' : '10px 10px 10px 0px'
                 }}
                 >
                     {message.text}
@@ -79,7 +73,11 @@ const Chat = () => {
             )}
 </div>
 <div className="inputArea" >
-    <input className="inputText" value={value} onChange={e => setValue(e.target.value)}></input>
+    <input className="inputText" 
+    value={value} 
+    onChange={e => setValue(e.target.value)}
+    placeholder="Введите сообщение"
+    ></input>
     <button className="sendText" onClick={sendMessage}>
         <img className="sendIcon" src={send} alt="sendIcon" />
     </button>

@@ -60,3 +60,52 @@
     align-items: center;
     width: 150px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .navigationBar {
+        position: fixed;
+        top: 0;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 30px;
+        width: 100%;
+        border-bottom: 1px solid rgba(28,110,164,0.49);
+
+        padding: 5px;
+    }
+    .userNavigationInfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .userNavPhoto {
+        width: 30px;
+        height: 30px;
+    }
+    .userNameNavigation {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .chatRoom {
+        padding: 0px;
+    }
+    .navigationButtonBar {
+        display: none;
+    }
+    .logOut {
+        display: flex;
+        align-items: center;
+        width: 41px;
+        height: 40px;
+    }
+    .buttonLogout {
+        border: none;
+        background: white;
+    }
+   
+   }

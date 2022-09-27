@@ -14,9 +14,8 @@ function LogOut() {
 
     return (
         <div className="logOut">
-            <button onClick={exit}>
+            <button className="buttonLogout" onClick={exit}>
                 <img className="navigationIcon" src={signOut} alt="logOut"/>
-                exit
             </button>
         </div>
     )
