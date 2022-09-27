@@ -90,6 +90,9 @@ outline: none;
         width: auto;
         margin: auto;
         border: none;
+        position: fixed;
+        height: 39px;
+        bottom: 0;
     }
     .chatName {
         display: none;
