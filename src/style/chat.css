@@ -82,17 +82,24 @@ outline: none;
     .chatMessageRoom {
         height: auto;
         width: 98%;
+        margin: 0px;
+        padding-bottom: 50px;
+        border: none;
     }
     .chatRoom {
         padding: 0px;
     }
+    .sendText {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
     .inputArea {
-        width: auto;
-        margin: auto;
         border: none;
-        position: fixed;
-        height: 39px;
         bottom: 0;
+        height: 39px;
+        margin: auto;
+        position: fixed;
+        width: 100%;
     }
     .chatName {
         display: none;
